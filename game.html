@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="game.css">
+<script src="./game.js" defer></script>
+</head>
+
+<body>
+    <div class="card">
+        <div class="top-section">
+            <span class="red">
+                <span class="top-photo">
+                    <img src="assets/naren.jpg" alt="">
+                </span>
+                <span class="welcome">
+                    <span>WELCOME</span>
+                    <span>NARENDRA</span>
+                </span>
+                <span class="level">
+                    <span>18 </span>
+                    <span>th</span>
+                    <!-- <span>th</span> -->
+                    <span>level</span>
+                </span>
+            </span>
+            <span class="topRight-corner">
+                <div class="container">
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            <img src="assets/naren.jpg" alt="Image 1">
+                            <img src="assets/naren.jpg" alt="Image 2">
+                            <img src="assets/naren.jpg" alt="Image 3">
+                        </div>
+
+                        <div class="carousel-indicators">
+                            <span class="indicator" data-slide="0"></span>
+                            <span class="indicator" data-slide="1"></span>
+                            <span class="indicator" data-slide="2"></span>
+                        </div>
+                    </div>
+                    <div class="carousel-buttons">
+                        <button class="carousel-button" id="prevBtn">&#10094;</button>
+                        <button class="carousel-button" id="nextBtn">&#10095;</button>
+                    </div>
+                </div>
+            </span>
+
+
+        </div>
+        <!-- </div> -->
+        <div class="right-corner">
+            <div class="activities">
+                <span class="text">ACTIVITIES
+                </span>
+                <div class="activity-list">
+                    <a href="index.html">BIRTHDAY</a>
+                    <a href="surprize.html">SURPRIZE</a>
+                    <a href="game1.html">PLAY GAME</a>
+                    <a href="surprize.html">NIGHT OUT</a>
+                    <a href="surprize.html">SURPRIZE</a>
+                    <a href="surprize.html">PUB</a>
+                    <P>This website is still under development</P>
+
+                </div>
+            </div>
+        </div>
+        <div class="birthday">
+            <div class="container">
+                <h1>Let's Play</h1>
+
+                <div class="dice">
+                    <p class="Player1">Player1</p>
+                    <img src="assets/dice6.jpg" alt="dice 6" width="50px" class="img1">
+                </div>
+                <div class="dice">
+                    <p class="Player2">Player2</p>
+                    <img src="assets/dice6.jpg" alt="dice 6" width="50px" class="img2">
+                </div>
+
+
+                <div class="container bottom">
+                    <button type="button" class="btn" onclick="rollTheDice()">
+                        Roll The Dice</button>
+
+                </div>
+                <div class="container bottom">
+                    <button type="button" class="btn" onclick="editNames()">
+                        Edit Names</button>
+
+                </div>
+            </div>
+
+
+
+            <!-- </div> -->
+        </div>
+        <!-- </div> -->
+
+</body>
+
+</html>
