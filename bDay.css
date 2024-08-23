@@ -289,6 +289,7 @@ body {
     width: 50px;
     height: 120px;
     flex: 0 0 100%;
+    cursor: pointer;
 }
 
 .carousel-buttons {
